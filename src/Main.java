@@ -15,8 +15,12 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Welcome to Mad Libs!");
 		System.out.println("What's your name?");
-		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
+		String number = ("Give me a number: ");
+		int num1 = in.nextInt();
+		System.out.println("Give me a place: ");
+		//flush
+		String place = in.nextLine();
+		System.out.println("One day, "+number+" wrote "+num1+" Mad Lib in "+place+"!");
 
 	}
 
