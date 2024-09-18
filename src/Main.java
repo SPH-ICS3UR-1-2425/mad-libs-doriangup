@@ -15,13 +15,22 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Welcome to Mad Libs!");
 		System.out.println("What's your name?");
-		String number = ("Give me a number: ");
-		int num1 = in.nextInt();
-		System.out.println("Give me a place: ");
+		String name = ("Give me a name: ");
 		//flush
-		String place = in.nextLine();
-		System.out.println("One day, "+number+" wrote "+num1+" Mad Lib in "+place+"!");
-
+		in.nextLine();
+		System.out.println("What year are we in");
+		String year = ("Give me a year");
+		in.nextInt();
+		
+		System.out.println("Give me a street: ");
+		String street  = ("Give me a street: ");
+		in.nextInt();
+		//flush
+		
+		System.out.println("Give me a fast food restaurant");
+		String restaurant = ("Give me a fast food restaurant");
+		in.nextLine();
+		System.out.println("One day, "+name+" rode around in they're "+year+" Dodge Charger Hellcat in "+street+" before turning in to the nearest "+restaurant+""!");
 	}
 
 }
